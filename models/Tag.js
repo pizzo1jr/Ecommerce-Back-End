@@ -26,4 +26,4 @@ Tag.init(
     }
 );
 
-module.exports = Comment;
+module.exports = Tag;
