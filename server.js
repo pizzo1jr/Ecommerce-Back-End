@@ -14,4 +14,4 @@ app.use(routes);
 ///turns on connection to server 
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
-});
+});  
